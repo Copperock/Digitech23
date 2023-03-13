@@ -1,7 +1,5 @@
 #Digitech23 
 This is code for my 2023 Sem A lvl1 class.
 
-To run code that is not "main.py"
-input to the shell "python3 (file name. what ever code type)"
-delete commas and brackets unless in file name.
-
+To run code from repl you will need to input to the shell "python3 (folderName)/(codeName.codeType)" 
+delete the brackets and the words inside and replace with what you desire to input to the shell
