@@ -10,8 +10,8 @@ def AreWeThereyet():
   elif AreWeThereyet == "no" or AreWeThereyet == "No":
     print ("Then when?")
     AreWeThereyetstat = False
-  elif AreWeThereyet == "Sir you are drunk" or AreWeThereyet == "Are you drunk?" :
-    sleep(5)
+  elif AreWeThereyet == "Sir you are drunk" or AreWeThereyet == "Are you drunk?" or AreWeThereyet == "911" or AreWeThereyet == "111" or AreWeThereyet == "are you drunk?" or AreWeThereyet == "are you drunk" :
+    sleep(3)
     print("Police officer pulls up behind the car and comes over to your driver. Police officer proceds to conduct a breath test on the driver.")
     sleep(5)
     print("beep beep - \"machine\"")
