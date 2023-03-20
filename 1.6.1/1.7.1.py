@@ -1,5 +1,31 @@
+def ty():
+  ##AreWeThereYet.py loop code def start##
+    global AreWeThereyetstat
+    AreWeThereyetstat = False
+
+    def AreWeThereyet():
+        global AreWeThereyetstat
+        AreWeThereyet = input("Are we there yet? (Yes/No)")
+        if AreWeThereyet.lower() == "yes":
+            print("WOOOOOOOOO")
+            AreWeThereyetstat = True
+            quit()
+        elif AreWeThereyet.lower() == "no":
+            print("Then when?")
+            AreWeThereyetstat = False
+        else:
+            print("That's not a bloody answer, ya Jeremy Clarkson looking fool!")
+            AreWeThereyetstat = False
+
+    while not AreWeThereyetstat:
+        AreWeThereyet()
+
+ty()
+##AreWeThereYet.py loop def run##
+
 def ie():
-    ### This is mostly a code from "AreWeThereYet.py" with a slight fun modifacation. ###
+  ## ifelse with a certain output from a hidden input to achive desired result from work/task set def start##
+    ### This is mostly a code from "AreWeThereYet.py" with a slight fun modifacation.     ###
   from time import sleep
   AreWeThereyetstat = False
   def AreWeThereyet():
@@ -26,6 +52,6 @@ def ie():
   
   while AreWeThereyetstat == False:
     AreWeThereyet()
-  
-ie()
 
+ie()
+## ifelse with a certain output from a hidden input to achive desired result from work/task set def run##
