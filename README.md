@@ -6,4 +6,3 @@ To run code from repl you will need to input to the shell "python3 (folderName)/
 delete the brackets and the words inside and replace with what you desire to input to the shell
 
 ---
-"README.md" is a file that I am messing with so its a don't bother looking at it
