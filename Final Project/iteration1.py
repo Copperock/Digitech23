@@ -6,6 +6,8 @@
 #Description: Hopefully a file of which will contain the first version of a number guessing game that I will create.
 
 #import time, numbers, and colour
+import time
+
 
 
 #ask name and greeting
