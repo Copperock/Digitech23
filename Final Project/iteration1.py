@@ -8,6 +8,7 @@
 
 #code start here
 #import time, numbers etc
+#Where I got a the colour from: https://www.geeksforgeeks.org/how-to-add-colour-to-text-python/
 from time import sleep
 import random
 
