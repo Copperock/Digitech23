@@ -5,18 +5,14 @@
 #FinishDate: 
 #Description: Hopefully a file of which will contain the first version of a number guessing game that I will create.
 
-#import time, numbers, and colour
-import time
 
+#code start here
+#import time, numbers etc
+from time import sleep
+import random
 
+#greeting statment
+print("Hello and welcome to my number guessing game!\n\nThis game will contain a list of numbers ranging from \"0\" to \"100\"\nOnly one of these numbers within the 100 possible anwsers will be the correct one.\n\nWhen you guess this number correctly you will win a wonderful prize of \"Completing this game!\"\n Well now, lets see. I should probably get to know your name?\n\nAfter all we are going to be here for quite a while well you guess this number.\n\n")
+name = input("So what is your name?\n")
 
-#ask name and greeting
-
-
-#level selection/start
-
-
-#number guessing
-
-
-#replay/quit
+print(name + ", thats a nice name. ")
