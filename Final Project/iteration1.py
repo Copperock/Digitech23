@@ -8,12 +8,14 @@
 
 #code start here
 #import time, numbers etc
+
 #Where I got a the colour from: https://www.geeksforgeeks.org/how-to-add-colour-to-text-python/
 from time import sleep
 import random
 
 #greeting statment
 print("Hello and welcome to my number guessing game!\n\nThis game will contain a list of numbers ranging from \"0\" to \"100\"\nOnly one of these numbers within the 100 possible anwsers will be the correct one.\n\nWhen you guess this number correctly you will win a wonderful prize of \"Completing this game!\"\n Well now, lets see. I should probably get to know your name?\n\nAfter all we are going to be here for quite a while well you guess this number.\n\n")
+sleep(3)
 name = input("So what is your name?\n")
-
+sleep(1)
 print(name + ", thats a nice name. ")
