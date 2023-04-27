@@ -14,14 +14,26 @@ from time import sleep
 import random
 
 #greeting statment
-print("Hello and welcome to my number guessing game!\n\nThis game will contain a list of numbers ranging from \"0\" to \"100\"\nOnly one of these numbers within the 100 possible anwsers will be the correct one.\n\nWhen you guess this number correctly you will win a wonderful prize of \"Completing this game!\"\n Well now, lets see. I should probably get to know your name?\n\nAfter all we are going to be here for quite a while well you guess this number.\n\n")
+print("Hello and welcome to my number guessing game!\n\nThis game will contain a list of numbers ranging from \"0\" to \"100\"\n")
+sleep(2)
+print("Only one of these numbers within the 100 possible anwsers will be the correct one.\n")
+sleep(1)
+print("When you guess this number correctly you will win a wonderful prize of \"Completing this game!\"")
+sleep(1)
+print("Well now, lets see. I should probably get to know your name?\n\nAfter all we are going to be here for quite a while well you guess this number.")
 sleep(1)
 name = input("So what is your name?\n")
 sleep(2)
 print(name + ", thats a nice name. ")
 
-#lets play a game
+#global stats + names
+#loop1 = ""
+global loop1
+loop1 = False
 
+#lets play a game
+def letsPlayAGame():
+  
 #number guessing
 
 #results
@@ -29,5 +41,3 @@ print(name + ", thats a nice name. ")
 #pointer to the right number
 
 #the guesses and the correct number at the end
-
-#
