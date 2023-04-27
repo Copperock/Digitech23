@@ -26,16 +26,16 @@ name = input("So what is your name?\n")
 sleep(2)
 print(name + ", thats a nice name. ")
 
-#global stats + names
-#loop1 = ""
-global loop1
-loop1 = False
+#number guessing defs
+def lvl1():
+  print("Hello 'gamestart'")
+#global stats
 
 #lets play a game
-def letsPlayAGame():
+sleep(2)
+print("Well now we should start playing the game, shall we?...")
+lvl1()
   
-#number guessing
-
 #results
 
 #pointer to the right number
