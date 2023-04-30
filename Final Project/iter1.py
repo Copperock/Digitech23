@@ -1,18 +1,9 @@
 #Title: iter1
 #Creater: Caleb Young
-#Current version: 0.1
+#Current iteration: 1
 #StartDate: 4/3/23
 #FinishDate: 5/1
 #Description: Hopefully a file of which will contain the first version of a number guessing game that I will create.
-#things to add over iterations
-#game engine 5/1-5/1
-#welcome
-#level selection
-#replay
-#hot/cold
-#name
-#colour
-#lives
 
 #game engine
 import random

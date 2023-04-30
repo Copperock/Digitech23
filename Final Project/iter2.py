@@ -1,6 +1,6 @@
 #Title: iter2
 #Creater: Caleb Young
-#Current version: 0.1
+#Current iteration: 2
 #StartDate: 5/1/23
 #FinishDate: 
 #Description: Hopefully a file of which will contain the first version of a number guessing game that I will create.
