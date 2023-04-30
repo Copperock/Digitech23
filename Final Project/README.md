@@ -11,7 +11,7 @@ ___
 - game engine 5/1 to 5/1 iteration 1
 - welcome
 - level selection
-- replay
+- replay 5/1 to
 - hot/cold
 - name
 - colour
@@ -19,3 +19,4 @@ ___
 ---
 # Change Log
 - Iteration1 (iter1) Built a basic game engine with an import random range. As well as a live/attempts system. One problem with this is that the lives and game engine are intergrated as one.
+- Iteration2 (iter2) replay
