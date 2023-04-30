@@ -1,0 +1,21 @@
+# Read me for final project
+This is the read me for my final project in Digitech1a. 
+ It will contain things I need to add over iterations with start and finsh dates. As well as a change me log which will hopefully line up with what I have said the change is in github. With a more detailed list of what it is that I have done in the change.
+
+It will contain
+- Things I need to add over iterations.
+- A change me log with a bit more detail then what github will get.
+___
+
+# Things I need to add over iterations
+- game engine 5/1 to 5/1 iteration 1
+- welcome
+- level selection
+- replay
+- hot/cold
+- name
+- colour
+- lives 5/1 to 5/1 iteration 1
+---
+# Change Log
+- Iteration1 (iter1) Built a basic game engine with an import random range. As well as a live/attempts system. One problem with this is that the lives and game engine are intergrated as one.
