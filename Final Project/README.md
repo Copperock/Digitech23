@@ -16,6 +16,7 @@ ___
 - name
 - colour
 - lives 5/1 to 5/1 iteration 1
+- variables
 ---
 # Change Log
 - Iteration1 (iter1)
