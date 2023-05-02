@@ -1,8 +1,8 @@
-#Title: iter2
+#Title: iter3
 #Creater: Caleb Young
-#Current iteration: 2
-#StartDate: 5/1/23
-#FinishDate: 5/2/23
+#Current iteration: 3
+#StartDate: 5/2/23
+#FinishDate: 
 #Description: This is a file that is apart of a set of files that will in the end hopefullly contain a lovley polished game that works well.
 
 #importing stuff
