@@ -28,3 +28,5 @@ Built a basic game engine with an import random range. As well as a live/attempt
 I changed somethings from iteration1. I turned the random.randint range into a variable. attempts also got chenged into a variable. I made game engine/attempts into a function. 
 
 -Iteration3 (iter3)
+
+I added a replay loop that partially works. The quit faction of it works, but replay replays the wrong stuff. changed a bit of it and now it broken very broken.
