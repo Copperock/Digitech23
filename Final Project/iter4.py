@@ -48,16 +48,19 @@ def replaySYS():
         replayLoop = False
         gameEngineAndLives()
 
-    else:
+    elif replay_input == "n":
         print("Goodbye")
         replayLoop = True
 
+    else:
+        print("Please input Y or N")
+        replayLoop = False
 
 # Please run well
 def plsrun():
     welcome()
     gameEngineAndLives()
     replaySYS()
-
+        
 
 plsrun()
