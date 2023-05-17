@@ -1,18 +1,16 @@
 # Title: iter4
 # Creater: Caleb Young
 # Current iteration: 4
-# StartDate: 11/5/23
+# StartDate: 110523
 # FinishDate:
-# Description: This is a file that is apart of a set of files that will in the end hopefully contain a lovely polished game that works well.
+# Description: This is a file that is apart of a set of files that will in the end hopefully contain a game that works well.
 
 # random stuff that I just need to do
-replayLoop = False
 import random
-
 # Variables
 randintend = 21
-attempt = 4
-
+attempt = 0+4
+replayLoop = False
 
 # welcome
 def welcome():
@@ -30,11 +28,10 @@ def gameEngineAndLives():
 
         if user_input == (a):
             print('You won!')
-            break
+            
         else:
             print(f'Try again! {attempt} attempts left.')
             attempt -= 1
-            continue
 
 
 # replay loop
@@ -47,7 +44,7 @@ def replaySYS():
         print("Let's play again")
         replayLoop = False
         gameEngineAndLives()
-
+    
     elif replay_input == "n":
         print("Goodbye")
         replayLoop = True
@@ -56,11 +53,13 @@ def replaySYS():
         print("Please input Y or N")
         replayLoop = False
 
+    while replayLoop = True
+    gameEngineAndLives()
+
 # Please run well
 def plsrun():
     welcome()
     gameEngineAndLives()
     replaySYS()
-        
 
 plsrun()
