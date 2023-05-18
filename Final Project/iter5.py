@@ -2,8 +2,8 @@
 # Title: iter4
 # Creater: Caleb Young
 # Current iteration: 4
-# StartDate: 110523
-# FinishDate:180523
+# StartDate: 180523
+# FinishDate:
 # Description: A partially completed number guessing game
 
 # random stuff that I just need to do
@@ -43,28 +43,25 @@ def gameengineandlives():
 def replaysys():
     """Replay loop return yes or no info."""
     global replayloop
+    global attempt
     print("Now that we have finished that, would you like to play again?")
     replay_input = input("Y,N    ").lower()
 
-    if replay_input == "y":
+    if replay_input:
+        print("Please input Y or N")
+        replayloop = True
+    elif replay_input == "y":
         print("Let's play again")
         replayloop = True
         gameengineandlives()
-    elif replay_input == "n":
+    else replay_input == "n":
         print("Goodbye")
         replayloop = False
-
-    else:
-        print("Please input Y or N")
-        replayloop = True
-
 # Please run well
 
 
 def plsrun():
     """Do a run command to run the game."""
-    global attempt
-    attempt = 4
     gameengineandlives()
     replaysys()
 
