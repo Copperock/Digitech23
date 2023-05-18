@@ -1,65 +1,74 @@
+"""This file contains a partially complete."""
+
 # Title: iter4
 # Creater: Caleb Young
 # Current iteration: 4
 # StartDate: 110523
 # FinishDate:
-# Description: This is a file that is apart of a set of files that will in the end hopefully contain a game that works well.
+# Description: A partially completed number guessing game
 
 # random stuff that I just need to do
 import random
 # Variables
 randintend = 21
-attempt = 0+4
-replayLoop = True
+attempt = 4
+replayloop = True
 
 # welcome
-def welcome():
-    print(
-        "Welcome to the random number guessing game. This is a game where you guess a number between the value of 0 and 20."
-    )
 
 
-# game engine/attempts
-def gameEngineAndLives():
+print("Welcome to the random number guessing game.")
+print("This is a game where you guess a number between the value of 0 and 20.")
+
+
+# game engine and attempts
+
+
+def gameengineandlives():
+    """Return lives left and run game engine."""
     global attempt
     a = random.randint(0, randintend)
     for i in range(attempt + 1):
         user_input = int(input("Enter Number: "))
 
         if user_input == (a):
-            print('You won!')
-            
+            print('You won')
         else:
             print(f'Try again! {attempt} attempts left.')
             attempt -= 1
 
 
 # replay loop
-def replaySYS():
-    global replayLoop
+
+
+def replaysys():
+    """Replay loop return yes or no info."""
+    global replayloop
     print("Now that we have finished that, would you like to play again?")
     replay_input = input("Y,N    ").lower()
 
     if replay_input == "y":
         print("Let's play again")
-        replayLoop = True
-        gameEngineAndLives()
-    
+        replayloop = True
+        gameengineandlives()
     elif replay_input == "n":
         print("Goodbye")
-        replayLoop = False
+        replayloop = False
 
     else:
         print("Please input Y or N")
-        replayLoop = True
+        replayloop = True
 
 # Please run well
+
+
 def plsrun():
-    welcome()
-    gameEngineAndLives()
-    replaySYS()
+    """Do a run command to run the game."""
+    gameengineandlives()
+    replaysys()
+
 
 plsrun()
 
-if replayLoop == True:
+if replayloop is True:
     plsrun()
