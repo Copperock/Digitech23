@@ -10,7 +10,7 @@ import random
 # Variables
 randintend = 21
 attempt = 0+4
-replayLoop = False
+replayLoop = True
 
 # welcome
 def welcome():
@@ -42,19 +42,16 @@ def replaySYS():
 
     if replay_input == "y":
         print("Let's play again")
-        replayLoop = False
+        replayLoop = True
         gameEngineAndLives()
     
     elif replay_input == "n":
         print("Goodbye")
-        replayLoop = True
+        replayLoop = False
 
     else:
         print("Please input Y or N")
-        replayLoop = False
-
-    while replayLoop = True
-    gameEngineAndLives()
+        replayLoop = True
 
 # Please run well
 def plsrun():
@@ -63,3 +60,6 @@ def plsrun():
     replaySYS()
 
 plsrun()
+
+if replayLoop == True:
+    plsrun()
