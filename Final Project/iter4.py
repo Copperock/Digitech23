@@ -1,5 +1,4 @@
 """This file contains a partially complete."""
-
 # Title: iter4
 # Creater: Caleb Young
 # Current iteration: 4
@@ -64,11 +63,14 @@ def replaysys():
 
 def plsrun():
     """Do a run command to run the game."""
+    global attempt
+    attempt = 4
     gameengineandlives()
     replaysys()
 
 
 plsrun()
 
-if replayloop is True:
+# replayloop
+while replayloop:
     plsrun()
