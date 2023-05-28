@@ -31,6 +31,3 @@ I changed somethings from iteration1. I turned the random.randint range into a v
 
 I added a replay loop that partially works. The quit faction of it works, but replay replays the wrong stuff. changed a bit of it and now it broken very broken.
 
-- Iteration4 (iter4)
-
-Compleated the replay loop so that it works
