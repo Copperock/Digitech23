@@ -8,14 +8,14 @@ It will contain
 ___
 
 # Things I need to add over iterations
-- game engine 5/1 to 5/1 iteration 1
+- game engine 5/1 to 5/1 iteration 1 compleate
 - welcome
 - level selection
-- replay 5/1 to
+- replay iter3 compleate 
 - hot/cold
 - name
 - colour
-- lives 5/1 to 5/1 iteration 1
+- lives 5/1 to 5/1 iteration 1 compleate
 - variables
 ---
 # Change Log
@@ -29,7 +29,13 @@ I changed somethings from iteration1. I turned the random.randint range into a v
 
 - Iteration3 (iter3)
 
-Added a replay loop that fully works. Also started testing my code with an excel sheet.
+Added a replay loop that fully works. Also started testing my code with an excel sheet. Checked the pep8 compliance.
 
-# Links to other bits of work for this project
+- Iteration4 (iter4)
+
+words words and more words
+
+# Links that could be helpful
 [Excel Testing sheet](https://wainuiomatahighschoolnz-my.sharepoint.com/:x:/g/personal/youc21091_wainuiomatahigh_school_nz/EREzvVQR2OVDjhWUyKZl1KkBwjHfARBMVTtOKgn_tOOe3Q?e=36WseQ)
+
+[Codewof pep8 compliance checker](https://www.codewof.co.nz/style/python3/)

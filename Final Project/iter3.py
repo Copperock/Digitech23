@@ -1,9 +1,12 @@
-#Title: iter3
-#Creater: Caleb Young
-#Current iteration: 3
-#StartDate: 2/5/23
-#FinishDate: 
-#Description: This is a file that is apart of a set of files that will in the end hopefullly contain a lovley polished game that works well.
+"""This file is a number guessing game that is slowly being made."""
+# Title: iter3
+# Creater: Caleb Young
+# Current iteration: 3
+# StartDate: 2/5/23
+# FinishDate:30/5/23
+# Description: This is a file that is apart of a
+# Description p2: set of files that will in the end
+# Descriptin p3: hopefullly contain a lovley polished game that works well.
 
 # random stuff that I just need to do
 import random
@@ -31,17 +34,21 @@ def gameengineandlives():
 
         if user_input == (a):
             print('You won')
+            break
         else:
             print(f'Try again! {attempt} attempts left.')
             attempt -= 1
+            continue
 
 
 # replay loop
 replayloop = True
+
+
 def replaysys():
     """Replay loop return yes or no info."""
     global replayloop
-    print("Now that we have finished that, would you like to play again?")
+    print("Would you like to play again?")
     replay_input = input("Y,N    ").lower()
 
     if replay_input == "y":
