@@ -29,5 +29,7 @@ I changed somethings from iteration1. I turned the random.randint range into a v
 
 - Iteration3 (iter3)
 
-I added a replay loop that partially works. The quit faction of it works, but replay replays the wrong stuff. changed a bit of it and now it broken very broken.
+Added a replay loop that fully works. Also started testing my code with an excel sheet.
 
+# Links to other bits of work for this project
+[Excel Testing sheet](https://wainuiomatahighschoolnz-my.sharepoint.com/:x:/g/personal/youc21091_wainuiomatahigh_school_nz/EREzvVQR2OVDjhWUyKZl1KkBwjHfARBMVTtOKgn_tOOe3Q?e=36WseQ)

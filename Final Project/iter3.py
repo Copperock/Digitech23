@@ -2,7 +2,7 @@
 #Creater: Caleb Young
 #Current iteration: 3
 #StartDate: 2/5/23
-#FinishDate: 11/5/23
+#FinishDate: 
 #Description: This is a file that is apart of a set of files that will in the end hopefullly contain a lovley polished game that works well.
 
 # random stuff that I just need to do
