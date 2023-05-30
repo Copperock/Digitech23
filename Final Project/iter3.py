@@ -60,7 +60,7 @@ def replaysys():
         replayloop = False
     else:
         print("Please input Y or N")
-        replayloop = False
+        replayloop = True
         replaysys()
 
 # Please run well

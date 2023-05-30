@@ -27,10 +27,14 @@ print("This is a game where you guess a number between the value of 0 and 20.")
 
 def gameengineandlives():
     """Return lives left and run game engine."""
+    user_input = ""
     global attempt
     a = random.randint(0, randintend)
     for i in range(attempt + 1):
-        user_input = int(input("Enter Number: "))
+        try:
+            user_input = int(input("Enter Number: "))
+        except ValueError:
+            print("Invaild input. Please input a number")
 
         if user_input == (a):
             print('You won')
@@ -60,7 +64,7 @@ def replaysys():
         replayloop = False
     else:
         print("Please input Y or N")
-        replayloop = False
+        replayloop = True
         replaysys()
 
 # Please run well
