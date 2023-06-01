@@ -4,20 +4,30 @@ This is the read me for my final project in Digitech1a.
 
 It will contain
 - Things I need to add over iterations.
-- A change me log with a bit more detail then what github will get.
+- What has been but into iterations.
+- An iteration change log with a bit more detail then what github will get.
+- Links to things I used.
 ___
 
 # Things I need to add over iterations
-- game engine 5/1 to 5/1 iteration 1 compleate
 - welcome
 - level selection
-- replay iter3 compleate 
 - hot/cold
 - name
 - colour
-- lives 5/1 to 5/1 iteration 1 compleate
 - variables
 ---
+
+# Things I have added over iterations
+- Iteration 1
+    - game engine
+    - lives
+- Iteration 2
+    - I changed some number to varaibles so they can be found and changed easier
+- Iteration 3
+    - Replay loop
+- Iteration 4
+
 # Change Log
 - Iteration1 (iter1)
   
@@ -35,7 +45,7 @@ Added a replay loop that fully works. Also started testing my code with an excel
 
 words words and more words
 
-# Links that could be helpful
+# Links to things I used
 [Excel Testing sheet](https://wainuiomatahighschoolnz-my.sharepoint.com/:x:/g/personal/youc21091_wainuiomatahigh_school_nz/EREzvVQR2OVDjhWUyKZl1KkBwjHfARBMVTtOKgn_tOOe3Q?e=36WseQ)
 
 [Codewof pep8 compliance checker](https://www.codewof.co.nz/style/python3/)
