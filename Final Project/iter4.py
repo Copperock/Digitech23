@@ -11,7 +11,7 @@
 # stuff to be imported
 import random
 # Variables
-randintend = 21
+randintend = 20
 attempt = 4
 
 
@@ -19,7 +19,7 @@ attempt = 4
 
 
 print("Welcome to the random number guessing game.")
-print("This is a game where you guess a number between the value of 0 and 20.")
+print(f"This is a game where you guess a number between the value of 0 and {randintend}.")
 
 
 # game engine and attempts
@@ -29,7 +29,7 @@ def gameengineandlives():
     """Return lives left and run game engine."""
     user_input = ""
     global attempt
-    a = random.randint(0, randintend)
+    a = random.randint(0, randintend + 1)
     for i in range(attempt + 1):
         try:
             user_input = int(input("Enter Number: "))
