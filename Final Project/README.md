@@ -12,7 +12,7 @@ ___
 # Things I need to add over iterations
 - welcome
 - level selection
-- hot/cold
+- lower/higher  working on
 - name
 - colour
 - variables
@@ -27,6 +27,7 @@ ___
 - Iteration 3
     - Replay loop
 - Iteration 4
+    - Working on lower/higher
 
 # Change Log
 - Iteration1 (iter1)

@@ -8,21 +8,12 @@
 # Description p2: set of files that will in the end
 # Descriptin p3: hopefullly contain a lovley polished game that works well.
 
-# stuff to be imported
+# random stuff that I just need to do
 import random
 # Variables
-randintend = 21
+randintend = 101
 attempt = 4
-
-
-# welcome
-
-
-print("Welcome to the random number guessing game.")
-print("This is a game where you guess a number between the value of 0 and 20.")
-
-
-# game engine and attempts
+game_play = True
 
 
 def gameengineandlives():
@@ -38,28 +29,20 @@ def gameengineandlives():
 
         if user_input == (a):
             print('You won')
-            attempt = 0
             break
 
         elif user_input >= (a):
-            print(f"Lower than {user_input}")
-            print(f'Try again! {attempt} attempts left.')
-            attempt -= 1
+            print("Lower")
+            continue
             
         elif user_input <= (a):
-            print(f"Higher than {user_input}.")
+            print("Higher")
+            continue
+            
+        else:
             print(f'Try again! {attempt} attempts left.')
             attempt -= 1
-
-        else:
-            print('Invalid input, please try again.')
-            
             continue
-
-
-# replay loop
-replayloop = True
-
 
 def replaysys():
     """Replay loop return yes or no info."""
@@ -78,20 +61,13 @@ def replaysys():
         print("Please input Y or N")
         replayloop = True
         replaysys()
+    
 
-# Please run well
-
-
-def plsrun():
-    """Do a run command to run the game."""
-    global attempt
-    attempt = 4
+while game_play == True:
     gameengineandlives()
-    replaysys()
+    if replayloop == True:
+        game_play == True
 
-
-plsrun()
-
-# replayloop
-while replayloop:
-    plsrun()
+    else:
+        game_play == False
+        print("Thanks for particapating in this show :)")
