@@ -7,8 +7,15 @@ It will contain
 - What has been but into iterations.
 - An iteration change log with a bit more detail then what github will get.
 - Links to things I used.
+- Planing flow chart
 ___
 
+# Planning flow chart
+Link to [Flow chart](https://app.diagrams.net/#HCopperock%2FDigitech23%2Fmain%2FFinal%20Project%2FDiagrams%2FPlanning%20Flow%20Chart.drawio)
+
+The flowchart PDF is also located in the folder called Diagrams.
+
+---
 # Things I need to add over iterations
 - welcome
 - level selection
@@ -46,7 +53,10 @@ Added a replay loop that fully works. Also started testing my code with an excel
 
 words words and more words
 
+
 # Links to things I used
 [Excel Testing sheet](https://wainuiomatahighschoolnz-my.sharepoint.com/:x:/g/personal/youc21091_wainuiomatahigh_school_nz/EREzvVQR2OVDjhWUyKZl1KkBwjHfARBMVTtOKgn_tOOe3Q?e=36WseQ)
 
 [Codewof pep8 compliance checker](https://www.codewof.co.nz/style/python3/)
+
+[diagrams.net](https://app.diagrams.net/)
