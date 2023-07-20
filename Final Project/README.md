@@ -30,7 +30,7 @@ The flowchart PDF is also located in the folder called Diagrams.
     - game engine
     - lives
 - Iteration 2
-    - I changed some number to varaibles so they can be found and changed easier
+    - I changed some number to variables so they can be found and changed easier
 - Iteration 3
     - Replay loop
 - Iteration 4
