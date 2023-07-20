@@ -59,7 +59,7 @@ Adding something.
 
 I also have a downloadable version of the testing sheet in the folder name Test sheet. Thing is its only able to be downloaded off of the Github Repository.
 
-[GitHub repository](https://github.com/Copperock/Digitech23/tree/main)
+[GitHub Repository](https://github.com/Copperock/Digitech23/tree/main)
 
 [Codewof pep8 compliance checker](https://www.codewof.co.nz/style/python3/)
 
