@@ -45,7 +45,7 @@ def gameengineandlives():
             print(f"Lower than {user_input}")
             print(f'Try again! {attempt} attempts left.')
             attempt -= 1
-            
+
         elif user_input <= (a):
             print(f"Higher than {user_input}.")
             print(f'Try again! {attempt} attempts left.')
@@ -53,7 +53,7 @@ def gameengineandlives():
 
         else:
             print('Invalid input, please try again.')
-            
+
             continue
 
 
