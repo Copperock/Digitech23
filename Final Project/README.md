@@ -57,6 +57,10 @@ Adding something.
 # Links to things I used
 [Excel Testing sheet](https://wainuiomatahighschoolnz-my.sharepoint.com/:x:/g/personal/youc21091_wainuiomatahigh_school_nz/EREzvVQR2OVDjhWUyKZl1KkBwjHfARBMVTtOKgn_tOOe3Q?e=36WseQ)
 
+I also have a downloadable version of the testing sheet in the folder name Test sheet. Thing is its only able to be downloaded off of the Github Repository.
+
+[GitHub repository](https://github.com/Copperock/Digitech23/tree/main)
+
 [Codewof pep8 compliance checker](https://www.codewof.co.nz/style/python3/)
 
 [diagrams.net](https://app.diagrams.net/)`
