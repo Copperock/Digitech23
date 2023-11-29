@@ -12,15 +12,16 @@
 import random
 # Variables
 randintend = 20
+randintstart = 0
 attempt = 4
-
+user_guesses = []
 
 # welcome
 
 
-print("Welcome to the random number guessing game.")
-print(f"This is a game where you guess a number between the value of 0 and {randintend}.")
-
+print("""Welcome to the random number guessing game.
+This is a game where you guess a number""",
+f"between the value of 0 and {randintend}.")
 
 # game engine and attempts
 
@@ -29,26 +30,37 @@ def gameengineandlives():
     """Return lives left and run game engine."""
     user_input = ""
     global attempt
-    a = random.randint(0, randintend + 1)
+    a = random.randint(randintstart, randintend + 1)
     for i in range(attempt + 1):
-        try:
-            user_input = int(input("Enter Number: "))
-        except ValueError:
-            print("Invaild input. Please input a number")
+        while user_input != int():
+            try:
+                user_input = int(input("Enter Number: "))
+                break
+            except ValueError:
+                print("Invaild input. Please input a number")
 
         if user_input == (a):
+            user_guesses.append(user_input)
             print('You won')
             attempt = 0
             break
 
+        elif user_input >= (randintend):
+            print(f"please guess within range {randintstart,randintend}")
+
+        elif user_input <= (randintstart):
+            print(f"Please guess within range {randintstart,randintend}")
+
         elif user_input >= (a):
             print(f"Lower than {user_input}")
             print(f'Try again! {attempt} attempts left.')
+            user_guesses.append(user_input)
             attempt -= 1
 
         elif user_input <= (a):
             print(f"Higher than {user_input}.")
             print(f'Try again! {attempt} attempts left.')
+            user_guesses.append(user_input)
             attempt -= 1
 
         else:
@@ -69,6 +81,7 @@ def replaysys():
 
     if replay_input == "y":
         print("Let's play again")
+        del user_guesses[:]
         replayloop = True
         gameengineandlives()
     elif replay_input == "n":
@@ -86,11 +99,16 @@ def plsrun():
     """Do a run command to run the game."""
     global attempt
     attempt = 4
+
     gameengineandlives()
+
+    print(f'You guessed {user_guesses}')
+
     replaysys()
 
 
 plsrun()
+
 
 # replayloop
 while replayloop:
